@@ -1,0 +1,52 @@
+[
+    {
+        "Question": "What is the capital of India?",
+        "Options": [
+            "Delhi",
+            "Mumbai",
+            "Kolkata",
+            "Chennai"
+        ],
+        "Answer": "Delhi"
+    },
+    {
+        "Question": "What is the capital of Maharashtra?",
+        "Options": [
+            "Mumbai",
+            "Pune",
+            "Nagpur",
+            "Nashik"
+        ],
+        "Answer": "Mumbai"
+    },
+    {
+        "Question" : "What color is your bugatti?",
+        "Options" : [
+            "Red",
+            "Blue",
+            "Black",
+            "White"
+        ],
+        "Answer" : "Red"
+    },
+    {
+        "Question": "What do you call a samosa without potato filling?",
+        "Options": [
+            "Samosa",
+            "Kachori",
+            "Samosa Kachori",
+            "Samosa without potato filling"
+        ],
+        "Answer": "Kachori"
+    },
+    {
+        "Question" : "Would you like to go out on a date with me?",
+        "Options" : [
+            "Yes",
+            "No",
+            "Maybe",
+            "I don't know"
+        ],
+        "Answer" : "No"
+    }
+]

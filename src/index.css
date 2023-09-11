@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* FeedbackForm.css */
+
+.feedback-form {
+  position: fixed;
+  bottom: 10px; /* Adjust as needed to control the vertical position */
+  right: 10px; /* Adjust as needed to control the horizontal position */
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  max-width: 300px; /* Adjust the maximum width as needed */
+  z-index: 1000; /* Ensure it's above other elements on the page */
+}
+
+.feedback-form ul {
+  list-style: none;
+  padding: 0;
+}
+
+.feedback-form li {
+  margin-bottom: 10px;
+}
+
+.feedback-form button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Add more styles as needed to match your design */
