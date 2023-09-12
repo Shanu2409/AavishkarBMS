@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import questionsData from "../data/QnA.json";
+import StartAnA from "./StartAnA";
 
 class FeedbackForm extends Component {
   constructor(props) {
@@ -55,31 +56,7 @@ class FeedbackForm extends Component {
 
     return (
       <div className="feedback-form">
-        {showCongratulations ? (
-          <div>
-            Congratulations! <br />
-            <button onClick={this.handleRestart}>Restart</button>
-          </div>
-        ) : showThankYou ? (
-          <div>
-            Thank you! <br />
-            <button onClick={this.handleRestart}>Restart</button>
-          </div>
-        ) : (
-          <>
-            <h2>Question {currentQuestionIndex + 1}</h2>
-            <p>{questions[currentQuestionIndex].Question}</p>
-            <ul>
-              {questions[currentQuestionIndex].Options.map((option, index) => (
-                <li key={index}>
-                  <button onClick={() => this.handleAnswerSelect(option)}>
-                    {option}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          </>
-        )}
+        <StartAnA />
       </div>
     );
   }
