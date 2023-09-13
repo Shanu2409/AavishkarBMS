@@ -50,11 +50,6 @@ function StartAnA() {
     }
   };
 
-  const restartQuestions = () => {
-    setCurrentQuestion(1);
-    setAnswers([]);
-  };
-
   return (
     <div className="start-an-a">
       <h1 className="header">{currentQuestion !== -1 && "Questionnaire"}</h1>

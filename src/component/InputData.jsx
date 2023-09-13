@@ -6,7 +6,7 @@ const InputData = ({ phoneNumber, onPhoneNumberChange }) => {
   let [loading, setLoading] = useState(false);
   let [showOtp, setShowOtp] = useState(false);
   let [otp, setOtp] = useState("");
-  let [color, setColor] = useState("#000");
+  // let [color, setColor] = useState("");
   const [showThanks, setShowThanks] = useState(false);
 
   // store the otp in state
@@ -50,7 +50,7 @@ const InputData = ({ phoneNumber, onPhoneNumberChange }) => {
             )}
             {loading && (
               <CircleLoader
-                color={color}
+                color={"#000"}
                 loading={loading}
                 size={20}
                 cssOverride={{
