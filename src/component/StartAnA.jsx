@@ -1,3 +1,5 @@
+// StartAnA.js
+
 import React, { useState } from "react";
 import InputData from "./InputData";
 
@@ -54,11 +56,11 @@ function StartAnA() {
   };
 
   return (
-    <div>
-      <h1>{currentQuestion !== -1 && "Questionnaire"}</h1>
+    <div className="start-an-a">
+      <h1 className="header">{currentQuestion !== -1 && "Questionnaire"}</h1>
       {currentQuestion > 0 ? (
         <>
-          <p>{questions[currentQuestion - 1].text}</p>
+          <p className="question">{questions[currentQuestion - 1].text}</p>
           {questions[currentQuestion - 1].options.map((option) => (
             <div key={option}>
               <input
@@ -74,9 +76,11 @@ function StartAnA() {
           ))}
         </>
       ) : (
-        <div>
+        <div className="input-section">
           <InputData />
-          <button onClick={restartQuestions}>Restart</button>
+          <button onClick={restartQuestions} className="reset-button">
+            Restart
+          </button>
         </div>
       )}
     </div>

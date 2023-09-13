@@ -5,8 +5,11 @@ const InputData = ({ phoneNumber, otp, onPhoneNumberChange, onOTPChange }) => {
     <div className="input-data">
       <h2>Thank you for your responses!</h2>
 
-      <label htmlFor="phoneNumber">Phone Number:</label>
+      <label className="input-label" htmlFor="phoneNumber">
+        Phone Number:
+      </label>
       <input
+        className="data-input2"
         type="tel"
         id="phoneNumber"
         name="phoneNumber"
@@ -14,8 +17,12 @@ const InputData = ({ phoneNumber, otp, onPhoneNumberChange, onOTPChange }) => {
         value={phoneNumber}
         onChange={(e) => onPhoneNumberChange(e.target.value)}
       />
-      <label htmlFor="otp">OTP:</label>
+      <a href="#">(Send OTP)</a>
+      <label className="input-label" htmlFor="otp">
+        OTP:
+      </label>
       <input
+        className="data-input"
         type="text"
         id="otp"
         name="otp"

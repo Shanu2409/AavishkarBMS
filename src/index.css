@@ -5,6 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Gradient background using linear-gradient */
+  background: linear-gradient(45deg, #ecca95, #ff00aa);
+  /* You can adjust the angle (45deg) and colors (#00aaff and #ff00aa) as needed */
+  /* You can also use other units like "rad" or percentages for the angle */
+  /* For example: background: linear-gradient(90deg, #00aaff, #ff00aa); */
+  
+  /* Optionally, you can set a fallback background color */
+  background-color: #00aaff; /* Fallback color if gradients are not supported */
+  /* Other CSS properties for the body tag */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensures the gradient covers the entire viewport height */
+  /* Additional styles as needed */
+  /* color: #ffffff; Text color on the gradient background */
 }
 
 code {
@@ -23,7 +38,7 @@ code {
   border: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  max-width: 300px; /* Adjust the maximum width as needed */
+  /* max-width: 300px; Adjust the maximum width as needed */
   z-index: 1000; /* Ensure it's above other elements on the page */
 }
 
@@ -46,3 +61,141 @@ code {
 }
 
 /* Add more styles as needed to match your design */
+/* InputData.css */
+
+.input-data {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.data-input {
+  /* width: 100%; */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.data-input2 {
+  /* width: 100%; */
+  padding: 10px;
+  margin-bottom: 2px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* CSS for Reset Button */
+.reset-button {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.reset-button:hover {
+  color: black;
+  background-color: #ccc;
+  border-color: #999;
+  color: #fff;
+}
+
+/* StartAnA.css */
+
+.start-an-a {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.input-section {
+  margin-top: 20px;
+}
+
+.reset-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+  background-color: #0056b3;
+}
+
+.input-data a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+  /* margin-top: px; */
+  margin-bottom: 15px;
+  display: block;
+}
+
+.input-data a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #0056b3; /* Hover color */
+}
+
+
+/* App.css */
+
+.message {
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+  color: #333; /* Text color */
+  text-align: center;
+  margin: 20px 0; /* Adjust margin as needed */
+  padding: 10px; /* Add padding for spacing */
+  background-color: #ffddc1; /* Background color */
+  border-top: 2px solid #e6b58a; /* Border style */
+  border-bottom: 2px solid #e6b58a; /* Border style */
+  /* border-radius: 10px; Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+}
+
+/* Optional: Hover effect */
+.message:hover {
+  background-color: #ffc178; /* Change background color on hover */
+  border-color: #ff9633; /* Change border color on hover */
+  transform: scale(1.05); /* Scale up the message on hover */
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+}
