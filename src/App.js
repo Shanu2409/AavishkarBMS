@@ -4,7 +4,7 @@ import FeedbackForm from "./component/FeedbackForm";
 function App() {
   return (
     <div className="App">
-      <h1 className="message">Let's Go Out for a Date</h1>
+      <h1 className="message">Let's Go Out for a Data</h1>
       <FeedbackForm />
     </div>
   );

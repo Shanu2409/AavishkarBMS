@@ -76,6 +76,7 @@ code {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
+  margin-top: 20px;
   font-size: 14px;
 }
 
@@ -90,7 +91,7 @@ code {
 .data-input2 {
   /* width: 100%; */
   padding: 10px;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
@@ -198,4 +199,11 @@ input[type="radio"] {
   border-color: #ff9633; /* Change border color on hover */
   transform: scale(1.05); /* Scale up the message on hover */
   transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+}
+
+.centered-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

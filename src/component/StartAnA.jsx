@@ -78,9 +78,6 @@ function StartAnA() {
       ) : (
         <div className="input-section">
           <InputData />
-          <button onClick={restartQuestions} className="reset-button">
-            Restart
-          </button>
         </div>
       )}
     </div>
