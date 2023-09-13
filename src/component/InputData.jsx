@@ -45,9 +45,7 @@ const InputData = ({ phoneNumber, onPhoneNumberChange }) => {
                   value={phoneNumber}
                   // onChange={(e) => onPhoneNumberChange(e.target.value)}
                 />
-                <a href="#" onClick={handleSendOtp}>
-                  (Send OTP)
-                </a>
+                <button onClick={handleSendOtp}>(Send OTP)</button>
               </>
             )}
             {loading && (
