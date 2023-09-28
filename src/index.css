@@ -6,13 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Gradient background using linear-gradient */
-  background: linear-gradient(45deg, #ecca95, #ff00aa);
+  /* background: linear-gradient(45deg, #ecca95, #ff00aa); */
   /* You can adjust the angle (45deg) and colors (#00aaff and #ff00aa) as needed */
   /* You can also use other units like "rad" or percentages for the angle */
   /* For example: background: linear-gradient(90deg, #00aaff, #ff00aa); */
   
   /* Optionally, you can set a fallback background color */
-  background-color: #00aaff; /* Fallback color if gradients are not supported */
+  background-color: #e1e1e1;
   /* Other CSS properties for the body tag */
   font-family: Arial, sans-serif;
   margin: 0;
@@ -191,14 +191,6 @@ input[type="radio"] {
   border-bottom: 2px solid #e6b58a; /* Border style */
   /* border-radius: 10px; Rounded corners */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
-}
-
-/* Optional: Hover effect */
-.message:hover {
-  background-color: #ffc178; /* Change background color on hover */
-  border-color: #ff9633; /* Change border color on hover */
-  transform: scale(1.05); /* Scale up the message on hover */
-  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
 }
 
 .centered-image-container {

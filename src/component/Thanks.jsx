@@ -10,7 +10,8 @@ const Thanks = () => {
         height={100}
       />
       <div>
-        <h1>Thank you!!</h1>
+        <h4>Application link is sent on your whatsapp</h4>
+        <h4>I hope your day gets better</h4>
 
         <button onClick={() => window.location.reload(false)}>Restart</button>
       </div>
